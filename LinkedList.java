@@ -11,7 +11,7 @@ class Node {
 public class LinkedList {
     Node head;
 
-    // Insert at Beginning
+    // Insert at Start
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
@@ -84,7 +84,7 @@ public class LinkedList {
 
         System.out.println("NULL");
     }
-
+    //Main Function
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
