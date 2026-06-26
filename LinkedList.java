@@ -35,7 +35,7 @@ public class LinkedList {
         temp.next = newNode;
     }
 
-    // Delete a Node
+    
     public void delete(int key) {
         if (head == null) {
             System.out.println("List is empty");
@@ -59,7 +59,7 @@ public class LinkedList {
         }
     }
 
-    // Search a Node
+    
     public boolean search(int key) {
         Node temp = head;
 
@@ -73,7 +73,7 @@ public class LinkedList {
         return false;
     }
 
-    // Display List
+   
     public void display() {
         Node temp = head;
 
