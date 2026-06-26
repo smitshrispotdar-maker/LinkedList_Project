@@ -11,14 +11,14 @@ class Node {
 public class LinkedList {
     Node head;
 
-    // Insert at Start
+
     public void insertAtBeginning(int data) {
         Node newNode = new Node(data);
         newNode.next = head;
         head = newNode;
     }
 
-    // Insert at End
+   
     public void insertAtEnd(int data) {
         Node newNode = new Node(data);
 
